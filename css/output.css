@@ -184,11 +184,35 @@
   .table {
     display: table;
   }
+  .size-\[3\] {
+    width: 3;
+    height: 3;
+  }
+  .size-\[32\] {
+    width: 32;
+    height: 32;
+  }
+  .size-\[32px\] {
+    width: 32px;
+    height: 32px;
+  }
   .h-\[21px\] {
     height: 21px;
   }
   .h-\[29px\] {
     height: 29px;
+  }
+  .h-\[32\] {
+    height: 32;
+  }
+  .h-\[36\] {
+    height: 36;
+  }
+  .h-\[36px\] {
+    height: 36px;
+  }
+  .h-\[72px\] {
+    height: 72px;
   }
   .h-\[194px\] {
     height: 194px;
@@ -204,6 +228,12 @@
   }
   .w-\[82px\] {
     width: 82px;
+  }
+  .w-\[85px\] {
+    width: 85px;
+  }
+  .w-\[129\] {
+    width: 129;
   }
   .w-\[143px\] {
     width: 143px;
@@ -225,6 +255,9 @@
   }
   .justify-center {
     justify-content: center;
+  }
+  .justify-start {
+    justify-content: flex-start;
   }
   .gap-\[12px\] {
     gap: 12px;
@@ -254,12 +287,40 @@
   .py-\[4px\] {
     padding-block: 4px;
   }
+  .font-\[Figtr\] {
+    font-family: Figtr;
+  }
+  .font-\[Figtree\] {
+    font-family: Figtree;
+  }
+  .text-\[14px\]\/\[15\] {
+    font-size: 14px;
+    line-height: 15;
+  }
   .text-\[14px\]\/\[150\%\] {
     font-size: 14px;
     line-height: 150%;
   }
+  .text-\[16px\]\/\[150\%\] {
+    font-size: 16px;
+    line-height: 150%;
+  }
+  .text-\[24px\]\/\[150\%\] {
+    font-size: 24px;
+    line-height: 150%;
+  }
+  .text-\[24px\]\/\[150\] {
+    font-size: 24px;
+    line-height: 150;
+  }
   .text-\[14px\] {
     font-size: 14px;
+  }
+  .text-\[16px\] {
+    font-size: 16px;
+  }
+  .text-\[24px\] {
+    font-size: 24px;
   }
   .font-extrabold {
     --tw-font-weight: var(--font-weight-extrabold);
@@ -268,6 +329,9 @@
   .font-medium {
     --tw-font-weight: var(--font-weight-medium);
     font-weight: var(--font-weight-medium);
+  }
+  .text-\[\#6B6B6B\] {
+    color: #6B6B6B;
   }
   .text-\[\#111111\] {
     color: #111111;
@@ -281,6 +345,10 @@
     --tw-drop-shadow: var(--tw-drop-shadow-size);
     filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
   }
+}
+@font-face {
+  font-family: Figtree;
+  src: url(../assets/fonts/Figtree-VariableFont_wght.ttf);
 }
 @property --tw-rotate-x {
   syntax: "*";
