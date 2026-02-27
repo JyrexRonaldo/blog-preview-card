@@ -169,6 +169,12 @@
   .start {
     inset-inline-start: var(--spacing);
   }
+  .mx-\[10px\] {
+    margin-inline: 10px;
+  }
+  .mx-\[100px\] {
+    margin-inline: 100px;
+  }
   .block {
     display: block;
   }
@@ -344,6 +350,23 @@
     --tw-drop-shadow-size: drop-shadow(8px 8px var(--tw-drop-shadow-color, #000000));
     --tw-drop-shadow: var(--tw-drop-shadow-size);
     filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
+  }
+  .hover\:text-\[\#F4D04E\] {
+    &:hover {
+      @media (hover: hover) {
+        color: #F4D04E;
+      }
+    }
+  }
+  .focus\:text-\[\#F4D04E\] {
+    &:focus {
+      color: #F4D04E;
+    }
+  }
+  .active\:text-\[\#F4D04E\] {
+    &:active {
+      color: #F4D04E;
+    }
   }
 }
 @font-face {
